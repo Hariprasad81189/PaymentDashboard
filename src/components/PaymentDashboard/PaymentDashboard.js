@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faAngleDown, faBolt, faCircleQuestion, faMagnifyingGlass, faCookieBite, faUserFriends, faHouse, faRectangleList, faTableCellsLarge, faTruck, faVolumeHigh, faChartSimple, faCreditCard, faLocationArrow, faPercentage,    } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faAngleDown, faBolt, faCircleQuestion, faUpDown, faDownload, faMagnifyingGlass, faCookieBite, faUserFriends, faHouse, faRectangleList, faTableCellsLarge, faTruck, faVolumeHigh, faChartSimple, faCreditCard, faLocationArrow, faPercentage,    } from '@fortawesome/free-solid-svg-icons'
 import './PaymentDashboard.css'
 const PaymentDashboard =() =>{
     return(
@@ -169,12 +169,13 @@ const PaymentDashboard =() =>{
                             </div>
 
                             <div className='sort-and-icons'>
-                                <div className = 'sort-icon'>
+                                <div className = 'sort-icon-con'>
                                     <p className='sort-heading'>Sort</p>
-                                    <p>icon</p>
+                                    <FontAwesomeIcon className='sort-icon'  color='#4D4D4D' icon={faUpDown} />
+
                                 </div>
-                                <div>
-                                    <p>icon</p>
+                                <div className='download-con'>
+                                    <FontAwesomeIcon color='#4D4D4D' icon={faDownload} />
                                 </div>
                                
                             </div>

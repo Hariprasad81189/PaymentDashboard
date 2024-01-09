@@ -98,7 +98,7 @@
 .icon-name-container{
     display: flex;
     flex-direction: row;
-    padding:8px,16px,8px,16px;
+    padding:8px 16px 8px 16px;
     height: 36px;
     border-radius: 4px;
 
@@ -311,14 +311,34 @@
     justify-content: space-around;
 
 }
-.sort-icon{
+.sort-icon-con{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+    padding: 4px 6px;
+}
+
+.download-con {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+    padding: 4px 6px;
+    margin-left: 8px;
+}
+
+.sort-icon {
+    margin-left: 5px;
 }
 .sort-heading{
     color: #4D4D4D;
     font-size: 16px;
     font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 .order-details{
     display: flex;
