@@ -1,85 +1,87 @@
-// import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope, faAngleDown, faBolt, faCircleQuestion, faMagnifyingGlass, faCookieBite, faUserFriends, faHouse, faRectangleList, faTableCellsLarge, faTruck, faVolumeHigh, faChartSimple, faCreditCard, faLocationArrow, faPercentage,    } from '@fortawesome/free-solid-svg-icons'
+
 import './PaymentDashboard.css'
 const PaymentDashboard =() =>{
     return(
         <div className='bg-container'> 
 
             <div className="navbar">
-                <div>
+                <div className='navbar-top-con'>
                     <div className='image-name-container'>
+                        <div className='image-name-left'>
                         <div className='image-container'>
                             Nishyan
                             <p className='name-tag'>HANDMADE WITH LOVE</p>
                         </div>
                         <div className='name-container'>
-                            <h1 className='name'>Nishyan</h1>
+                            <p className='name'>Nishyan</p>
                             <p className='visit-store'>Visit Store</p>
                         </div>
-
-                        <div >
-                        {/* <i class="fa-solid fa-angle-down"></i> */}
-
+                        </div>
+                        <div>
+                            <FontAwesomeIcon color='#ffffff' icon={faAngleDown} />
                         </div>
                     </div>
 
                     <div className='nav-items'>
                         <div className='icon-name-container'>
-                        {/* <FontAwesomeIcon icon="fa-solid fa-house" /> */}
+                        <FontAwesomeIcon color='#ffffff' icon={faHouse} />
                         <p className='nav-item-heading'>Home</p>
                         </div>
 
                         <div className='icon-name-container'>
-                        {/* <FontAwesomeIcon icon="fa-solid fa-house" /> */}
+                        <FontAwesomeIcon color='#ffffff' icon={faRectangleList} />
                         <p className='nav-item-heading'>Orders</p>
                         </div>
 
                         <div className='icon-name-container'>
-                        {/* <FontAwesomeIcon icon="fa-solid fa-house" /> */}
+                        <FontAwesomeIcon color='#ffffff' icon={faTableCellsLarge} />
                         <p className='nav-item-heading'>Products</p>
                         </div>
 
                         <div className='icon-name-container'>
-                        {/* <FontAwesomeIcon icon="fa-solid fa-house" /> */}
+                        <FontAwesomeIcon color='#ffffff' icon={faTruck} />
                         <p className='nav-item-heading'>Delivery</p>
                         </div>
 
                         <div className='icon-name-container'>
-                        {/* <FontAwesomeIcon icon="fa-solid fa-house" /> */}
+                        <FontAwesomeIcon color='#ffffff' icon={faVolumeHigh} />
                         <p className='nav-item-heading'>Marketing</p>
                         </div>
 
                         <div className='icon-name-container'>
-                        {/* <FontAwesomeIcon icon="fa-solid fa-house" /> */}
+                        <FontAwesomeIcon color='#ffffff' icon={faChartSimple} />
                         <p className='nav-item-heading'>Analytics</p>
                         </div>
 
                         <div className='icon-name-container'>
-                        {/* <FontAwesomeIcon icon="fa-solid fa-house" /> */}
+                        <FontAwesomeIcon color='#ffffff' icon={faCreditCard} />
                         <p className='nav-item-heading'>Payments</p>
                         </div>
 
                         <div className='icon-name-container'>
-                        {/* <FontAwesomeIcon icon="fa-solid fa-house" /> */}
+                        <FontAwesomeIcon color='#ffffff' icon={faLocationArrow} />
                         <p className='nav-item-heading'>Tools</p>
                         </div>
 
                         <div className='icon-name-container'>
-                        {/* <FontAwesomeIcon icon="fa-solid fa-house" /> */}
+                        <FontAwesomeIcon color='#ffffff' icon={faPercentage} />
                         <p className='nav-item-heading'>Discounts</p>
                         </div>
 
                         <div className='icon-name-container'>
-                        {/* <FontAwesomeIcon icon="fa-solid fa-house" /> */}
+                        <FontAwesomeIcon color='#ffffff' icon={faUserFriends} />
                         <p className='nav-item-heading'>Auidence</p>
                         </div>
 
                         <div className='icon-name-container'>
-                        {/* <FontAwesomeIcon icon="fa-solid fa-house" /> */}
+                        <FontAwesomeIcon color='#ffffff' icon={faCookieBite} />
                         <p className='nav-item-heading'>Appearance</p>
                         </div>
 
                         <div className='icon-name-container'>
-                        {/* <FontAwesomeIcon icon="fa-solid fa-house" /> */}
+                        <FontAwesomeIcon color='#ffffff' icon={faBolt} />
                         <p className='nav-item-heading'>Plugins</p>
                         </div>
 
@@ -107,10 +109,14 @@ const PaymentDashboard =() =>{
                 <div className='horizon-nav'>
                     <div className='horizon-nav-one'> 
                         <p className='payment-name'>Payments</p>
+                        <FontAwesomeIcon color='#4D4D4D' icon={faCircleQuestion} />
                         <p className='payment-tag'>How its work</p>
                     </div>
-                    <div className = 'horizon-nav-two'>
-                        <input placeholder="Search features,tutorials, etc." type = "search"/>
+                    <div className='horizon-nav-two'>
+                        {/* <span className='search-icon'>
+                        <FontAwesomeIcon color='#808080' icon={faMagnifyingGlass} />
+                        </span> */}
+                        <input className='input1' placeholder="Search features,tutorials, etc." type = "search"/>
                     </div>
                     <div className="horizon-nav-three">
                         <h1>icon</h1>
