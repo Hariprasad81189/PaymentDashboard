@@ -2,6 +2,9 @@
     background-size:auto;
     display: flex;
     flex-direction: row;
+    height:100vh;
+    width:100vw;
+
 
 }
 .name {
@@ -11,6 +14,11 @@
     background-color:#1E2640;
     background-size:cover;
     padding :10px;
+    width:10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
 }
 
 .image-name-container{
@@ -68,4 +76,197 @@
 .icon-name-container{
     display: flex;
     flex-direction: row;
+    padding:8px,16px,8px,16px;
 }
+.nav-item-heading{
+    color: #FFFFFF;
+    font-size: 14px;
+    font: 500;
+    font:inter;
+
+
+}
+.amount-container{
+    background-color:  #353C53 !important;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: row;
+    
+}
+.image-amount-container{
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    border-radius:4px;
+    font-family:serif;
+    font-size:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+
+}
+.name-amount{
+    font-size: 13px;
+    font-weight: 400;
+    color: #FFFFFF;
+
+}
+.amount{
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF
+
+}
+
+.payment-details{
+    background-size: cover;
+    width:90vw;
+    padding: 15px;
+}
+
+.horizon-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.horizon-nav-one{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.payment-name{
+    font-size: 15px;
+    font-weight: 400;
+    margin-right:20px;
+
+}
+.payment-tag{
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+.horizon-nav-three{
+    display: flex;
+    flex-direction: row;
+    justify-self: space-between;
+    align-items: center;
+    margin-left: 100px;
+
+}
+.payment-section{
+    padding: 25px;
+}
+
+.payment-section-calendar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.overview-heading{
+    color:#1A181E;
+    font-size: 20px;
+    font: 500;
+
+}
+.calendar{
+    color:#4D4D4D;
+    font-size: 16px;
+    font: 400;
+
+}
+
+.order-and-amout-recieved-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+}
+.order-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width:50%;
+
+}
+.amount-container-horizon{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #FFFFFF;
+    width: 50%;
+
+}
+
+.order-heading{
+    color:#4D4D4D;
+    font-size: 16px;
+    font: 400;
+}
+.amount-heading{
+    color: #1A181E;
+    font-size: 32px;
+    font: 400;
+
+}
+
+.trans{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.trans-heading{
+    color: #1A181E;
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 10px;
+
+}
+.search-and-sort-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sort-and-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.sort-icon{
+    display: flex;
+    flex-direction: row;
+}
+.sort-heading{
+    color: #4D4D4D;
+    font-size: 16px;
+    font-weight: 400;
+}
+.order-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #F2F2F2;
+   padding: 10px,12px,10px,12px;
+   radius:4px;
+}
+.order-heading {
+    font-size: 14px;
+    font-weight: 500;
+    color: #4D4D4D;
+
+}
+
+
+
+
