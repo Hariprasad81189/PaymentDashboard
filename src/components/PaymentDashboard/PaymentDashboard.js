@@ -1,21 +1,20 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faAngleDown, faBolt, faCircleQuestion, faMagnifyingGlass, faCookieBite, faUserFriends, faHouse, faRectangleList, faTableCellsLarge, faTruck, faVolumeHigh, faChartSimple, faCreditCard, faLocationArrow, faPercentage,    } from '@fortawesome/free-solid-svg-icons'
-
 import './PaymentDashboard.css'
 const PaymentDashboard =() =>{
     return(
         <div className='bg-container'> 
 
             <div className="navbar">
-                <div className='navbar-top-con'>
+            <div className='navbar-top-con'>
                     <div className='image-name-container'>
-                        <div className='image-name-left'>
+                    <div className='image-name-left'>
                         <div className='image-container'>
                             Nishyan
                             <p className='name-tag'>HANDMADE WITH LOVE</p>
                         </div>
                         <div className='name-container'>
-                            <p className='name'>Nishyan</p>
+                        <p className='name'>Nishyan</p>
                             <p className='visit-store'>Visit Store</p>
                         </div>
                         </div>
@@ -119,8 +118,13 @@ const PaymentDashboard =() =>{
                         <input className='input1' placeholder="Search features,tutorials, etc." type = "search"/>
                     </div>
                     <div className="horizon-nav-three">
-                        <h1>icon</h1>
-                        <h1>icon</h1>
+                        <div className='announcment-icon'>
+                            Hi
+                        </div>
+                        <div className='downarrow-icon'>
+                            Hi
+
+                        </div>
                     </div>
                 </div>
 
@@ -139,12 +143,12 @@ const PaymentDashboard =() =>{
                         <div className='order-and-amout-recieved-container'>
                             <div className ='order-container'>
                                 <p className='order-heading'>Online Orders</p>
-                                <h1 className='amount-heading'>231</h1>
+                                <h1 className='amount-h1'>231</h1>
 
                             </div>
                             <div className='amount-container-horizon'>
                                 <p className='order-heading'>Amount Received</p>
-                                <h1 className='amount-heading'>23,91,312.19</h1>
+                                <h1 className='amount-h1'>23,91,312.19</h1>
 
                             </div>
 
@@ -358,11 +362,40 @@ const PaymentDashboard =() =>{
                         <div><p className='amount-heading'>₹1278.23</p></div>
                         <div><p className='amount-heading'>₹22</p></div>
                     </div>
+
+                    <div className='pages-container'>
+                        <div className='previous'>
+                            <p>icon</p>
+                            <p className='previous-name'>previous</p>
+
+                        </div>
+                        <div className='numbers'>
+                            <div className='number-div'>1</div>
+                            <div className='number-div'>...</div>
+                            <div className='number-div'>11</div>
+                            <div className='number-div'>12</div>
+                            <div className='number-div'>13</div>
+                            <div className='number-div'>14</div>
+                            <div className='number-div'>15</div>
+                            <div className='number-div'>16</div>
+                            <div className='number-div'>17</div>
+                            <div className='number-div'>18</div>
+                            <div className='number-div'>19</div>
+
+                        </div>
+                        <div className='next'>
+                            <p className='next-name'>Next</p>
+                            <p>icon</p>
+                        </div>
+
+                    </div>
                     
 
                 </div>
 
             </div>
+
+
 
         </div>
     );
