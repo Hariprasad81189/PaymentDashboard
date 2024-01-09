@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faAngleDown, faBolt, faCircleQuestion, faUpDown, faDownload, faMagnifyingGlass, faCookieBite, faUserFriends, faHouse, faRectangleList, faTableCellsLarge, faTruck, faVolumeHigh, faChartSimple, faCreditCard, faLocationArrow, faPercentage,    } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faAngleDown, faBolt, faCircleQuestion, faUpDown, faDownload, faMagnifyingGlass, faCookieBite, faUserFriends, faHouse, faRectangleList, faTableCellsLarge, faTruck, faVolumeHigh, faChartSimple, faCreditCard, faLocationArrow, faPercentage,faCommentDots ,faCaretDown  ,faChevronLeft,faChevronRight, faWallet } from '@fortawesome/free-solid-svg-icons'
 import './PaymentDashboard.css'
 const PaymentDashboard =() =>{
     return(
@@ -89,10 +89,10 @@ const PaymentDashboard =() =>{
                 <div className='amount-container'>
                 <div className='image-amount-container'>
                         <div className='amount-image-container'>
-                        {/* icon */}
+                        <FontAwesomeIcon fontSize={30} color='#ffffff' icon={faWallet} />
                         </div>
                         <div className='name-amount-container'>
-                            <h1 className='name-amount'>Available Credits</h1>
+                            <h1 className='nav-item-heading'>Available Credits</h1>
                             <p className='amount'>221.10</p>
                         </div>
 
@@ -119,11 +119,10 @@ const PaymentDashboard =() =>{
                     </div>
                     <div className="horizon-nav-three">
                         <div className='announcment-icon'>
-                            Hi
+                        <FontAwesomeIcon color='#4D4D4D' icon={faCommentDots} />
                         </div>
                         <div className='downarrow-icon'>
-                            Hi
-
+                        <FontAwesomeIcon color='#4D4D4D' icon={faCaretDown} />
                         </div>
                     </div>
                 </div>
@@ -169,13 +168,13 @@ const PaymentDashboard =() =>{
                             </div>
 
                             <div className='sort-and-icons'>
-                                <div className = 'sort-icon-con'>
+                            <div className = 'sort-icon-con'>
                                     <p className='sort-heading'>Sort</p>
                                     <FontAwesomeIcon className='sort-icon'  color='#4D4D4D' icon={faUpDown} />
 
-                                </div>
-                                <div className='download-con'>
-                                    <FontAwesomeIcon color='#4D4D4D' icon={faDownload} />
+</div>
+<div className='download-con'>
+    <FontAwesomeIcon color='#4D4D4D' icon={faDownload} />
                                 </div>
                                
                             </div>
@@ -366,8 +365,8 @@ const PaymentDashboard =() =>{
 
                     <div className='pages-container'>
                         <div className='previous'>
-                            <p>icon</p>
-                            <p className='previous-name'>previous</p>
+                            <FontAwesomeIcon fontSize={12} color='#4D4D4D' icon={faChevronLeft} />
+                            <p className='previous-name'>Previous</p>
 
                         </div>
                         <div className='numbers'>
@@ -385,8 +384,8 @@ const PaymentDashboard =() =>{
 
                         </div>
                         <div className='next'>
-                            <p className='next-name'>Next</p>
-                            <p>icon</p>
+                        <p className='next-name'>Next</p>
+                            <FontAwesomeIcon fontSize={12} color='#4D4D4D' icon={faChevronRight} />
                         </div>
 
                     </div>
