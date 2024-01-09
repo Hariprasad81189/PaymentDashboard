@@ -182,19 +182,179 @@ const PaymentDashboard =() =>{
 
                     </div>
 
+                    <div className='order-amount'>
+                        <div>
+                            <p className='orderid-heading'>#281209</p>
+                        </div>
+                        <div><p className='amount-heading'>7 July,2023</p></div>
+                        <div><p className='amount-heading'>₹1278.23</p></div>
+                        <div><p className='amount-heading'>₹22</p></div>
+                    </div>
+
+                    <div className='order-amount'>
+                        <div>
+                            <p className='orderid-heading'>#281209</p>
+                        </div>
+                        <div><p className='amount-heading'>7 July,2023</p></div>
+                        <div><p className='amount-heading'>₹1278.23</p></div>
+                        <div><p className='amount-heading'>₹22</p></div>
+                    </div>
                     
                     <div className='order-amount'>
                         <div>
-                            <p className='order-heading'>Order ID</p>
+                            <p className='orderid-heading'>#281209</p>
                         </div>
-                        <div><p className='order-heading'>Order Date</p></div>
-                        <div><p className='order-heading'>Order Amount</p></div>
-                        <div><p className='order-heading'>Transcation fee</p></div>
-
+                        <div><p className='amount-heading'>7 July,2023</p></div>
+                        <div><p className='amount-heading'>₹1278.23</p></div>
+                        <div><p className='amount-heading'>₹22</p></div>
                     </div>
-                </div>
+                    
+                    <div className='order-amount'>
+                        <div>
+                            <p className='orderid-heading'>#281209</p>
+                        </div>
+                        <div><p className='amount-heading'>7 July,2023</p></div>
+                        <div><p className='amount-heading'>₹1278.23</p></div>
+                        <div><p className='amount-heading'>₹22</p></div>
+                    </div>
+                    
+                    <div className='order-amount'>
+                        <div>
+                            <p className='orderid-heading'>#281209</p>
+                        </div>
+                        <div><p className='amount-heading'>7 July,2023</p></div>
+                        <div><p className='amount-heading'>₹1278.23</p></div>
+                        <div><p className='amount-heading'>₹22</p></div>
+                    </div>
+                    
+                    <div className='order-amount'>
+                        <div>
+                            <p className='orderid-heading'>#281209</p>
+                        </div>
+                        <div><p className='amount-heading'>7 July,2023</p></div>
+                        <div><p className='amount-heading'>₹1278.23</p></div>
+                        <div><p className='amount-heading'>₹22</p></div>
+                    </div>
+                    
+                    <div className='order-amount'>
+                        <div>
+                            <p className='orderid-heading'>#281209</p>
+                        </div>
+                        <div><p className='amount-heading'>7 July,2023</p></div>
+                        <div><p className='amount-heading'>₹1278.23</p></div>
+                        <div><p className='amount-heading'>₹22</p></div>
+                    </div>
+                    
+                    <div className='order-amount'>
+                        <div>
+                            <p className='orderid-heading'>#281209</p>
+                        </div>
+                        <div><p className='amount-heading'>7 July,2023</p></div>
+                        <div><p className='amount-heading'>₹1278.23</p></div>
+                        <div><p className='amount-heading'>₹22</p></div>
+                    </div>
+                    
+                    <div className='order-amount'>
+                        <div>
+                            <p className='orderid-heading'>#281209</p>
+                        </div>
+                        <div><p className='amount-heading'>7 July,2023</p></div>
+                        <div><p className='amount-heading'>₹1278.23</p></div>
+                        <div><p className='amount-heading'>₹22</p></div>
+                    </div>
+                    
+                    <div className='order-amount'>
+                        <div>
+                            <p className='orderid-heading'>#281209</p>
+                        </div>
+                        <div><p className='amount-heading'>7 July,2023</p></div>
+                        <div><p className='amount-heading'>₹1278.23</p></div>
+                        <div><p className='amount-heading'>₹22</p></div>
+                    </div>
+                    
+                    <div className='order-amount'>
+                        <div>
+                            <p className='orderid-heading'>#281209</p>
+                        </div>
+                        <div><p className='amount-heading'>7 July,2023</p></div>
+                        <div><p className='amount-heading'>₹1278.23</p></div>
+                        <div><p className='amount-heading'>₹22</p></div>
+                    </div>
+                    
+                    <div className='order-amount'>
+                        <div>
+                            <p className='orderid-heading'>#281209</p>
+                        </div>
+                        <div><p className='amount-heading'>7 July,2023</p></div>
+                        <div><p className='amount-heading'>₹1278.23</p></div>
+                        <div><p className='amount-heading'>₹22</p></div>
+                    </div>
+                    
+                    <div className='order-amount'>
+                        <div>
+                            <p className='orderid-heading'>#281209</p>
+                        </div>
+                        <div><p className='amount-heading'>7 July,2023</p></div>
+                        <div><p className='amount-heading'>₹1278.23</p></div>
+                        <div><p className='amount-heading'>₹22</p></div>
+                    </div>
+                    
+                    <div className='order-amount'>
+                        <div>
+                            <p className='orderid-heading'>#281209</p>
+                        </div>
+                        <div><p className='amount-heading'>7 July,2023</p></div>
+                        <div><p className='amount-heading'>₹1278.23</p></div>
+                        <div><p className='amount-heading'>₹22</p></div>
+                    </div>
+                    
+                    <div className='order-amount'>
+                        <div>
+                            <p className='orderid-heading'>#281209</p>
+                        </div>
+                        <div><p className='amount-heading'>7 July,2023</p></div>
+                        <div><p className='amount-heading'>₹1278.23</p></div>
+                        <div><p className='amount-heading'>₹22</p></div>
+                    </div>
+                    
+                    <div className='order-amount'>
+                        <div>
+                            <p className='orderid-heading'>#281209</p>
+                        </div>
+                        <div><p className='amount-heading'>7 July,2023</p></div>
+                        <div><p className='amount-heading'>₹1278.23</p></div>
+                        <div><p className='amount-heading'>₹22</p></div>
+                    </div>
+                    
+                    <div className='order-amount'>
+                        <div>
+                            <p className='orderid-heading'>#281209</p>
+                        </div>
+                        <div><p className='amount-heading'>7 July,2023</p></div>
+                        <div><p className='amount-heading'>₹1278.23</p></div>
+                        <div><p className='amount-heading'>₹22</p></div>
+                    </div>
+                    
+                    <div className='order-amount'>
+                        <div>
+                            <p className='orderid-heading'>#281209</p>
+                        </div>
+                        <div><p className='amount-heading'>7 July,2023</p></div>
+                        <div><p className='amount-heading'>₹1278.23</p></div>
+                        <div><p className='amount-heading'>₹22</p></div>
+                    </div>
+                    
+                    <div className='order-amount'>
+                        <div>
+                            <p className='orderid-heading'>#281209</p>
+                        </div>
+                        <div><p className='amount-heading'>7 July,2023</p></div>
+                        <div><p className='amount-heading'>₹1278.23</p></div>
+                        <div><p className='amount-heading'>₹22</p></div>
+                    </div>
+                    
 
-            
+                </div>
 
             </div>
 
